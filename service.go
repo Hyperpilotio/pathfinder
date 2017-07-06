@@ -1,4 +1,4 @@
-package pathfinder
+package main
 
 import "github.com/marcusolsson/pathfinder/path"
 
