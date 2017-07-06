@@ -29,7 +29,7 @@ func FindShortestPath(origin, destination string) []TransitPath {
 
 	var candidates []TransitPath
 
-	for p := range generateCandidates(origin, destination, 3+rand.Intn(3)) {
+	for p := range generateCandidates(origin, destination, 6+rand.Intn(3)) {
 		candidates = append(candidates, p)
 	}
 
